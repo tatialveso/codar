@@ -46,7 +46,7 @@ header {
     margin: 100px 0;
 }
 
-#headerImg {
+#headerImg, #servicesImg {
     width: 400px;
     margin: 0;
 }
@@ -74,4 +74,49 @@ span {
     padding: 10px 40px;
     border-radius: 10px;
     letter-spacing: 1px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services ul {
+    padding-top: 40px;
+}
+
+.services ul>li {
+    padding: 0 0 15px 10px;
+    list-style-type: "✓";
+}
+
+.services ul>li::marker {
+    color: #D6000D;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.callToAction {
+    margin-left: 200px;
+}
+
+#cta {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+input {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #dfdfdf;
+    color: #424242;
+}
+
+#ctaBtn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #D6000D;
+    color: #FFFFFF;
 }

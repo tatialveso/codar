@@ -120,3 +120,43 @@ input {
     background-color: #D6000D;
     color: #FFFFFF;
 }
+
+section {
+    margin: 100px 0;
+}
+
+.depositions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px;
+    gap: 20px;
+}
+
+.depo {
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    padding: 20px;
+}
+
+.profile {
+    height: 50px;
+    width: 50px;
+    background-color: #D6000D;
+    border-radius: 50%;
+}
+
+#text {
+    font-size: 16px;
+}
+
+#textName {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#textDesc {
+    font-weight: bold;
+    font-size: 12px;
+}

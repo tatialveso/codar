@@ -160,3 +160,34 @@ section {
     font-weight: bold;
     font-size: 12px;
 }
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+    padding: 30px 20px;
+}
+
+h2 {
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+
+#title {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer p {
+    padding: 10px 0;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+footer img {
+    width: 40px;
+    margin-right: 10px;
+}

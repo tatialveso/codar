@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+h1 {
+    color: #D6000D;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.menuBtn {
+    color: #000000;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+#loginBtn {
+    background-color: #D6000D;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+#loginBtn>a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#loginBtn>a, .menuBtn {
+    font-size: 16px;
+}

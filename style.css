@@ -38,3 +38,40 @@ h1 {
 #loginBtn>a, .menuBtn {
     font-size: 16px;
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 100px 0;
+}
+
+#headerImg {
+    width: 400px;
+    margin: 0;
+}
+
+span {
+    margin: auto 0;
+}
+
+#textOne {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#textTwo {
+    font-weight: bold;
+    font-size: 45px;
+    color: #D6000D;
+    margin-bottom: 20px;
+}
+
+#budgetBtn {
+    background-color: #D6000D;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 40px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}

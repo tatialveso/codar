@@ -191,3 +191,41 @@ footer img {
     width: 40px;
     margin-right: 10px;
 }
+
+@media(max-width: 360px) {
+    nav, header, section {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .menu {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    #loginBtn {
+        display: none;
+    }
+
+    #headerImg, #servicesImg {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .services {
+        flex-direction: column-reverse;
+    }
+
+    .callToAction {
+        margin: 50px auto;
+    }
+
+    .depositions {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 50px 0;
+    }
+
+    footer {
+        display: block;
+    }
+}
